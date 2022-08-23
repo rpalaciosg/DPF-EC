@@ -30,7 +30,7 @@ La idea es  hacer algo parecido a [coinbase](https://www.coinbase.com/), [bitsta
 
 - [ ] Un proceso automatico de web scraping que obtenga informacion de paginas web de las instituciones financieras.
 
-**Esquema de la informacion:**
+**Esquema Ejemplo de la informacion a generar:**
   
     ```json
     
@@ -67,6 +67,18 @@ La idea es  hacer algo parecido a [coinbase](https://www.coinbase.com/), [bitsta
       "Portfolio": "https://richardpalaciosg.dev"
     }  
     ```
+  ** Ejemplo de la informacion de tazas a obtener** de cada institucion, seran por plazos para poder hacer un simulador, cotizador, etc
+   
+  > Se debe considerar que los intereses mensuales están sujetos a la retención de los impuestos de ley.
+
+| Tiempo          | Tasa   |
+|-----------------|--------|
+| 30 a 59 días    | 5,65%  |
+| 60 a 89 días    | 5,90%  |
+| 90 a 179 días   | 6,15%  |
+| 180 a 269 días  | 6,65%  |
+| 270 a 359 días  | 6,90%  |
+| Más de 360 días | 7,90%  |
   
 - [ ] Una base de datos que actualice toda la informacion de las instituciones financieras.
 
