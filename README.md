@@ -38,24 +38,78 @@ La idea es  hacer algo parecido a [coinbase](https://www.coinbase.com/), [bitsta
      "Top_Fees_Financial_Companies": [
         {
         "id":"1", 
-        "name": "Mutualista",
+        "name": "Jardin Azuayo",
         "rating": "AA",
         "last_update_date": "12/08/2022",
-        "taxes":"-2%"
-        "fees": "[1,2,3,4]",
-        "periods": [],
+        "taxes":"-2%",
+        "min_amount": "100",
+        "period fees": [
+             {
+               "days_bt": "30-59",
+               "fee": "5,65%"
+             },
+             {
+               "days_bt": "60-89",
+               "fee": "5,90%"
+             },
+             {
+               "days_bt": "90-179",
+               "fee": "6,15%"
+             },
+             {
+               "days_bt": "180-269",
+               "fee": "6,65%"
+             },
+             {
+               "days_bt": "270-359",
+               "fee": "6,90%"
+             },
+             {
+               "days_bt": "360-9999",
+               "fee": "7,90%"
+             }
+          ],                       
+        "min_fee": "5,65%",
+        "max_fee": "7,90%",
         "logo": "https://imagen-example.jpg",
         "product_name": "'CDP' | 'Poliza' | 'DPF' | 'Inversion'",
         "web": "https://pagina-banco.com"
         },
         {
           "id":"2", 
-          "name": "Mutualista",
+          "name": "JEP",
           "rating": "AA",
           "last_update_date": "12/08/2022",
           "taxes":"-2%"
-          "fees": "[1,2,3,4]",
-          "periods": [],
+          "min_amount": "100",
+          "period fees": [
+               {
+                 "days_bt": "30-59",
+                 "fee": "5,00%"
+               },
+               {
+                 "days_bt": "60-89",
+                 "fee": "5,25%"
+               },
+               {
+                 "days_bt": "90-179",
+                 "fee": "5,75%"
+               },
+               {
+                 "days_bt": "180-269",
+                 "fee": "6,50%"
+               },
+               {
+                 "days_bt": "270-359",
+                 "fee": "7,00%"
+               },
+               {
+                 "days_bt": "360-9999",
+                 "fee": "8,00%"
+               }
+            ],          
+          "min_fee": "5,00%",
+          "max_fee": "8,00%",
           "logo": "https://imagen-example.jpg",
           "product_name": "'CDP' | 'Poliza' | 'DPF' | 'Inversion'",
           "web": "https://pagina-banco.com"
