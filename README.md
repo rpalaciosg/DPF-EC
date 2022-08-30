@@ -26,7 +26,7 @@ La idea es  hacer algo parecido a [coinbase](https://www.coinbase.com/), [bitsta
 - [ ] Una vista de un grafico que muestre las instituciones segun la tasa parecido a esto
 
   ![image](https://user-images.githubusercontent.com/11642622/186197363-281b11f7-0e4d-4e18-a976-58079e1b9149.png)
-
+- [] Tener una especie de tablero de trello donde registres tus inversiones o CDP o DPFs, al final en una de las columnas de trello poner el monto de las ganancias que estoy obteniendo con esto.
 
 - [ ] Un proceso automatico de web scraping que obtenga informacion de paginas web de las instituciones financieras.
 
